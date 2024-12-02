@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BCCLP2Prova2B/static/css/main.d221dc40.css",
+    "main.js": "/BCCLP2Prova2B/static/js/main.459ac847.js",
+    "static/media/erro404.png": "/BCCLP2Prova2B/static/media/erro404.f48dd9f7fda8f8bc6de9.png",
+    "index.html": "/BCCLP2Prova2B/index.html",
+    "main.d221dc40.css.map": "/BCCLP2Prova2B/static/css/main.d221dc40.css.map",
+    "main.459ac847.js.map": "/BCCLP2Prova2B/static/js/main.459ac847.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221dc40.css",
+    "static/js/main.459ac847.js"
+  ]
+}

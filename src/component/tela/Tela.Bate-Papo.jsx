@@ -67,7 +67,7 @@ export default function TelaBatePapo() {
         const elemento = evento.target.name;
         const valor = evento.target.value;
         if (elemento === "usuario" && valor !== "") {
-            const novo = JSON.parse(valor); // converte de volta para objeto
+            const novo = JSON.parse(valor); 
             setRecado({ ...recado, [elemento]: novo });
         }
         else {

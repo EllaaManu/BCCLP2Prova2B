@@ -46,14 +46,14 @@ export const gravarUsuario = createAsyncThunk('gravarUsuario', async (usuario) =
         };
     }
 });
-export const deletarUsuario = createAsyncThunk('deletarUsuario', async (usuario) => {
+export const deletarUsuario = createAsyncThunk('deletarUsuario', async (id) => {
     try {
-        const resposta = await deletar(usuario);
+        const resposta = await deletar(id); 
         if (resposta.status) {
             return {
                 status: true,
                 mensagem: resposta.mensagem,
-                usuario
+                id // Retorna o ID do usuário deletado
             };
         } else {
             return {
@@ -64,10 +64,11 @@ export const deletarUsuario = createAsyncThunk('deletarUsuario', async (usuario)
     } catch (erro) {
         return {
             status: false,
-            mensagem: erro.mensagem
+            mensagem: erro.message // Retorna a mensagem do erro
         };
     }
 });
+
 export const atualizarUsuario = createAsyncThunk('atualizarUsuario', async (usuario) => {
     try {
         const resposta = await atualizar(usuario);

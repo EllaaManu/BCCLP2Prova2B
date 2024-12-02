@@ -9,7 +9,7 @@ export default function TelaCadastroUsuario() {
 
     return (
         <Pagina>
-            <Alert className="mt-4 mb-02 success text-center" variant="dark">
+            <Alert className="mt-4 mb-02 success text-center" variant="light">
                 <h2>
                     Cadastro de Usuário
                 </h2>

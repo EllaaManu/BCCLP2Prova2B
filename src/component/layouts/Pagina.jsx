@@ -5,7 +5,7 @@ import Menu from "./Menu";
 export default function Pagina(props) {
     return (
         <Container className="w-100">
-            <Cabecalho titulo="BCC LP2 Prova 2B" />
+            <Cabecalho titulo="LP2 Prova 2B" />
             <Menu />
             {props.children}
         </Container>

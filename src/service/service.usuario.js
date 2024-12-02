@@ -42,7 +42,8 @@ export async function consultar(termo) {
     return await res.json();
 }
 
-export async function login(nickname, senha) {
+export async function login(nickname, 
+    ) {
     const res = await fetch(url + "login", {
         method: 'POST',
         headers: {
